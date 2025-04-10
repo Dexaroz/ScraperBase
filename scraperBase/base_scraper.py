@@ -21,7 +21,7 @@ class BaseScraper(ABC):
     def _clean(self):
         pass
 
-    def _export(self, data):
+    def export(self, data):
         for exporter in self.__exporters:
             exporter.export(data)
 
@@ -29,5 +29,4 @@ class BaseScraper(ABC):
         self._fetch_html()
         self._parse()
         clean_data = self._clean()
-        self._export(clean_data)
         return clean_data

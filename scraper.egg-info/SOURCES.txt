@@ -1,0 +1,13 @@
+setup.py
+scraper.egg-info/PKG-INFO
+scraper.egg-info/SOURCES.txt
+scraper.egg-info/dependency_links.txt
+scraper.egg-info/top_level.txt
+scraper_core/__init__.py
+scraper_core/request_handler.py
+scraper_core/utils.py
+scraper_exporter/__init__.py
+scraper_exporter/base_exporter.py
+scraper_exporter/csv_exporter.py
+scraper_exporter/json_exporter.py
+scraper_exporter/sqlite_exporter.py
