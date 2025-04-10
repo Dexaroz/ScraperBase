@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
-from scraper_exporter import BaseExporter
-from scraper_core import *
+from scraperBase.scraper_exporter import BaseExporter
+from scraperBase.scraper_core import *
 from typing import List
 
 class BaseScraper(ABC):
